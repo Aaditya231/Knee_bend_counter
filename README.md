@@ -8,6 +8,10 @@ This repository contains the code for knee bend counter and some characteristics
 * A feedback message to keep your knee bent is shown if the knee is taken to straight position in less than eight seconds.
 
 ***
+## How to run
+First of all make sure you have opencv-python==4 or above and numpy==1.19.2 or above installed.
+* To use webcam run the knee_bend_counter_cam.py file
+* To use on any video run the knee_bend_counter_vid.py file and change the path in line 29 with the path of your video.
 
 
 
