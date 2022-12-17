@@ -120,6 +120,9 @@ with mp_pose.Pose( static_image_mode=False,
                     cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255,255,255), 1, cv2.LINE_AA)
         
         cv2.imshow('knee bent pose', image)
+        c = cv2.waitKey(1)
+        if c==ord("r"):
+            count=0
         if cv2.waitKey(5) & 0xFF == 27:
             break
 cap.release()
