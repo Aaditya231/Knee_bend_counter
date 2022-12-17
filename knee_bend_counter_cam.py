@@ -75,8 +75,6 @@ with mp_pose.Pose( static_image_mode=False,
         else:
             radians = np.arctan2(imlist[27][2]-imlist[25][2], imlist[27][1]-imlist[25][1]) - np.arctan2(imlist[23][2]-imlist[25][2], imlist[23][1]-imlist[25][1])  
             angle = np.abs(radians*180.0/np.pi)
-        print(imlist[11][2]) 
-        print("   ")
                 
         if(start==2):
             end_time=time.time()
