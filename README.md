@@ -14,6 +14,13 @@ First of all make sure you have opencv-python==4 or above and numpy==1.19.2 or a
 * To use webcam run the knee_bend_counter_cam.py file
 * To use on any video run the knee_bend_counter_vid.py file and change the path in line 29 with the path of your video.
 * set the camera position and distance such that it can see the legs clearly.
-
-
+***
+<p align="center">
+  <img src="https://github.com/Aaditya231/Knee_bend_counter/blob/main/images/sample_image_1.png" width="350" title="hover text">
+  <img src="https://github.com/Aaditya231/Knee_bend_counter/blob/main/images/sample_image_2.png" width="350" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/Aaditya231/Knee_bend_counter/blob/main/images/sample_image_3.png" width="350" title="hover text">
+  <img src="https://github.com/Aaditya231/Knee_bend_counter/blob/main/images/sample_image_4.png" width="350" alt="accessibility text">
+</p>
 
